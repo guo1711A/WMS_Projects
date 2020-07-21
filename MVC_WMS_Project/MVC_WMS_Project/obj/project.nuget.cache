@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1gMSmil0+Eq4hGhTMmMV+/5H369mijFt6p0jcigbIhXF0zyjEQfS7qM6C64LVrk+vjkKFyk6i7PXxKH0/smjWA==",
+  "dgSpecHash": "E8JcMdjhseCjEvhnZk2E//3i/GT6KFWBZgeseCWV154Pmohjs+kxCKflwRRjUpUwgYUkByi6uRS7KODckOMFQg==",
   "success": true,
-  "projectFilePath": "E:\\桌面\\项目\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
+  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

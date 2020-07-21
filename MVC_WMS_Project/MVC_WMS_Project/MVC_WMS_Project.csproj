@@ -7,8 +7,16 @@
   <ItemGroup>
     <Folder Include="Controllers\Ryan_Controllers\" />
     <Folder Include="Controllers\Hanna_Controllers\" />
-    <Folder Include="Controllers\Nick_Controllers\" />
     <Folder Include="Controllers\Colin_Controllers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\Login\css\style.css" />
+    <None Include="wwwroot\Login\fonts\Nunito-Light.ttf" />
+    <None Include="wwwroot\Login\images\1.jpg" />
+    <None Include="wwwroot\Login\index.html" />
+    <None Include="wwwroot\Login\js\easyResponsiveTabs.js" />
+    <None Include="wwwroot\Login\js\jquery.min.js" />
   </ItemGroup>
 
   <ItemGroup>
