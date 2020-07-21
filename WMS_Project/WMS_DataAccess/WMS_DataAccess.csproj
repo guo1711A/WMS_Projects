@@ -5,8 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Colin_DataAccess\" />
-    <Folder Include="Hanna_DataAccess\" />
     <Folder Include="Nick_DataAccess\" />
     <Folder Include="Ryan_DataAccess\" />
   </ItemGroup>

@@ -1,31 +1,17 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "E:\\桌面\\WMS项目\\WMS_Project\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj": {}
+    "E:\\桌面\\项目\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj": {}
   },
   "projects": {
-    "E:\\桌面\\WMS项目\\WMS_Project\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj": {
+    "E:\\桌面\\项目\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\桌面\\WMS项目\\WMS_Project\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
+        "projectUniqueName": "E:\\桌面\\项目\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
         "projectName": "MVC_WMS_Project",
-        "projectPath": "E:\\桌面\\WMS项目\\WMS_Project\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
+        "projectPath": "E:\\桌面\\项目\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
         "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "E:\\桌面\\WMS项目\\WMS_Project\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\obj\\",
-=======
-    "C:\\Users\\周涵\\Desktop\\66\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\周涵\\Desktop\\66\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\周涵\\Desktop\\66\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
-        "projectName": "MVC_WMS_Project",
-        "projectPath": "C:\\Users\\周涵\\Desktop\\66\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
-        "packagesPath": "C:\\Users\\周涵\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\周涵\\Desktop\\66\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\obj\\",
->>>>>>> master
+        "outputPath": "E:\\桌面\\项目\\WMS_Project\\项目\\MVC_WMS_Project\\MVC_WMS_Project\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "F:\\Microsoft\\Xamarin\\NuGet\\",
