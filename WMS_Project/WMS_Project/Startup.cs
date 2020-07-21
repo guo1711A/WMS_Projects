@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using WMS_DataAccess.Colin_DataAccess;
 
 namespace WMS_Project
 {
@@ -25,6 +26,7 @@ namespace WMS_Project
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddCors(option => option.AddPolicy("mycors", p => p.AllowAnyOrigin()));
+            services.AddSingleton<IDA, SqlDbHelper>();
             services.AddControllers();
         }
 

@@ -7,7 +7,6 @@
   <ItemGroup>
     <Folder Include="Nick_Business\" />
     <Folder Include="Ryan_Business\" />
-    <Folder Include="Colin_Business\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -7,6 +7,7 @@
   <ItemGroup>
     <PackageReference Include="Dapper" Version="2.0.35" />
     <PackageReference Include="Microsoft.AspNetCore.Cors" Version="2.2.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.3" />
     <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
   </ItemGroup>
@@ -19,7 +20,6 @@
   <ItemGroup>
     <Folder Include="Controllers\Ryan_Controllers\" />
     <Folder Include="Controllers\Nick_Controllers\" />
-    <Folder Include="Controllers\Colin_Controllers\" />
     <Folder Include="Controllers\Hanna_Controllers\" />
   </ItemGroup>
 
