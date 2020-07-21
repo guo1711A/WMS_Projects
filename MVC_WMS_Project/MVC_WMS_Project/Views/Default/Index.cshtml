@@ -60,8 +60,11 @@
                         <dl class="layui-nav-child">
                             <dd><a lay-href="set/user/info.html">基本资料</a></dd>
                             <dd><a lay-href="set/user/password.html">修改密码</a></dd>
-                            <hr>
-                            <dd layadmin-event="logout" style="text-align: center;"><a>退出</a></dd>
+                            <dd  style="text-align: center;"><a href="/Login/index.html">退出</a></dd>
+                            <!--<dd><a id="tuichu">退出</a></dd>-->
+                        </dl>
+                        <dl>
+                            
                         </dl>
                     </li>
 
@@ -190,20 +193,20 @@
                                 <dd data-name="workorder">
                                     <a lay-href="app/workorder/list.html">供应商管理</a>
                                 </dd>
-                                <dd>
-                                    <a lay-href="app/message/index.html">客户管理</a>
+                                <dd data-name="workorder">
+                                    <a lay-href="app/workorder/list.html">客户管理</a>
                                 </dd>
-                                <dd>
-                                    <a lay-href="app/message/index.html">单位管理</a>
+                                <dd data-name="workorder">
+                                    <a lay-href="app/workorder/list.html">单位管理</a>
                                 </dd>
-                                <dd>
-                                    <a lay-href="app/message/index.html">产品类别</a>
+                                <dd data-name="workorder">
+                                    <a lay-href="app/workorder/list.html">产品类别</a>
                                 </dd>
-                                <dd>
-                                    <a lay-href="app/message/index.html">产品管理</a>
+                                <dd data-name="workorder">
+                                    <a lay-href="app/workorder/list.html">产品管理</a>
                                 </dd>
-                                <dd>
-                                    <a lay-href="app/message/index.html">承运商管理</a>
+                                <dd data-name="workorder">
+                                    <a lay-href="app/workorder/list.html">承运商管理</a>
                                 </dd>
                             </dl>
                         </li>
@@ -227,11 +230,11 @@
                                         <dd><a lay-href="senior/echarts/line.html">权限分配</a></dd>
                                     </dl>
                                 </dd>
-                                <dd>
-                                    <a layadmin-event="im">部门管理</a>
+                                <dd data-name="console">
+                                    <a lay-href="home/homepage1.html">部门管理</a>
                                 </dd>
-                                <dd>
-                                    <a layadmin-event="im">资源管理</a>
+                                <dd data-name="console">
+                                    <a lay-href="home/homepage2.html">资源管理</a>
                                 </dd>
                                 <dd data-name="echarts">
                                     <a href="javascript:;">消息中心</a>
@@ -292,5 +295,7 @@
     </script>
 </body>
 </html>
+
+
 
 
