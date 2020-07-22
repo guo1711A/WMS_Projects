@@ -9,7 +9,7 @@ using Dapper;
 
 namespace WMS_Business.Hanna_Buniness
 {
-    public class BusinessHelper : IBLL
+    public class BusinessHelper:IBLL
     {
         public IDbConnection con = BLLCon.GetSql();
         /// <summary>
@@ -25,9 +25,19 @@ namespace WMS_Business.Hanna_Buniness
         /// <summary>
         /// 删除
         /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public int Delete<T>(T t) where T : class, new()
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        /// 删除
+        /// </summary>
         /// <param name="sql"></param>
         /// <returns></returns>
-        public int Delete(string sql)
+        public int Deletes(string sql)
         {
             throw new NotImplementedException();
         }
@@ -64,9 +74,19 @@ namespace WMS_Business.Hanna_Buniness
         /// <summary>
         /// 修改
         /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="t"></param>
+        /// <returns></returns>
+        public int Update<T>(T t) where T : class, new()
+        {
+            throw new NotImplementedException();
+        }
+        /// <summary>
+        /// 修改
+        /// </summary>
         /// <param name="sql"></param>
         /// <returns></returns>
-        public int Update(string sql)
+        public int Updates(string sql)
         {
             throw new NotImplementedException();
         }

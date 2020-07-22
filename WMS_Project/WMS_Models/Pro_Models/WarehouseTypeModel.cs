@@ -7,7 +7,14 @@ namespace WMS_Models.Pro_Models
 {
 	 public class WarehouseTypeModel
 	 {
-		 public Guid  WarehouseType_ID { get; set; }
-		 public string  WarehouseType_Name { get; set; }
-	 }
+		//WarehouseTypeModel
+		/// <summary>
+		/// 仓库类型Id
+		/// </summary>
+		public Guid WarehouseType_ID { get; set; }
+		/// <summary>
+		/// 仓库类型名称
+		/// </summary>
+		public string WarehouseType_Name { get; set; }
+	}
 }
