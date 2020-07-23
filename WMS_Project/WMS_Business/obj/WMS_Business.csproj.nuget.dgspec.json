@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Business\\WMS_Business.csproj": {}
   },
   "projects": {
@@ -12,13 +13,30 @@
         "projectPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Business\\WMS_Business.csproj",
         "packagesPath": "C:\\Users\\王士瑞\\.nuget\\packages\\",
         "outputPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Business\\obj\\",
+=======
+    "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Business\\WMS_Business.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Business\\WMS_Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Business\\WMS_Business.csproj",
+        "projectName": "WMS_Business",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Business\\WMS_Business.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Business\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\王士瑞\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+=======
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,17 +44,28 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
           "F:\\学习软件\\Components\\System\\Components\\Packages": {},
+=======
+>>>>>>> master
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj": {
                 "projectPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj"
               },
               "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj": {
                 "projectPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj"
+=======
+              "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj"
+              },
+              "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj"
+>>>>>>> master
               }
             }
           }
@@ -86,6 +115,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -94,13 +124,27 @@
         "projectPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj",
         "packagesPath": "C:\\Users\\王士瑞\\.nuget\\packages\\",
         "outputPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\obj\\",
+=======
+    "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj",
+        "projectName": "WMS_DataAccess",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\王士瑞\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+=======
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -108,14 +152,22 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
           "F:\\学习软件\\Components\\System\\Components\\Packages": {},
+=======
+>>>>>>> master
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+<<<<<<< HEAD
               "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj": {
                 "projectPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj"
+=======
+              "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj": {
+                "projectPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj"
+>>>>>>> master
               }
             }
           }
@@ -165,6 +217,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -173,13 +226,27 @@
         "projectPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj",
         "packagesPath": "C:\\Users\\王士瑞\\.nuget\\packages\\",
         "outputPath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_Models\\obj\\",
+=======
+    "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj",
+        "projectName": "WMS_Models",
+        "projectPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Models\\WMS_Models.csproj",
+        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_Models\\obj\\",
+>>>>>>> master
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\王士瑞\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+=======
+          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> master
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -187,7 +254,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
           "F:\\学习软件\\Components\\System\\Components\\Packages": {},
+=======
+>>>>>>> master
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

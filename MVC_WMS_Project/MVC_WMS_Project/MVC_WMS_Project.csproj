@@ -5,8 +5,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <Folder Include="Controllers\Ryan_Controllers\" />
+<<<<<<< HEAD
+>>>>>>> master
     <Folder Include="Controllers\Hanna_Controllers\" />
+=======
     <Folder Include="Controllers\Colin_Controllers\" />
+>>>>>>> master
   </ItemGroup>
 
   <ItemGroup>

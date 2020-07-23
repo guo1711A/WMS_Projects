@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "wNDef+bxTuD2jolJHXuW1GpVbxPvHd56XPtp7YaSBbT3zk1aZ+2xfIfIfvk0N27+bMyDVloh9x35bRl2JZLwCA==",
   "success": true,
   "projectFilePath": "F:\\大一\\二次开发\\WMS_Projects\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
+=======
+  "dgSpecHash": "Z5R5zNcgxGwq/mZDuln1AFBdioUsdfZId8VCm4SxXcN2w33BL9uisQUsiYrnLb7yyeCy62apnyLCgspVQtVkww==",
+  "success": true,
+  "projectFilePath": "E:\\桌面\\66\\小组项目\\WMS_Projects\\MVC_WMS_Project\\MVC_WMS_Project\\MVC_WMS_Project.csproj",
+>>>>>>> master
   "expectedPackageFiles": [
     "C:\\Users\\王士瑞\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\王士瑞\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",

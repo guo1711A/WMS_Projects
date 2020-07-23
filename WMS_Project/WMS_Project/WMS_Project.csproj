@@ -19,7 +19,11 @@
 
   <ItemGroup>
     <Folder Include="Controllers\Nick_Controllers\" />
+<<<<<<< HEAD
     <Folder Include="Controllers\Hanna_Controllers\" />
+    <Folder Include="ViewModel\CoLinViewModel\" />
+=======
+>>>>>>> master
   </ItemGroup>
 
 

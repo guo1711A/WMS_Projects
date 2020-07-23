@@ -49,8 +49,10 @@ namespace WMS_DataAccess.Colin_DataAccess
         public int Delete<T>(T t) where T : class, new()
         {
             Type type = t.GetType();
+            string TableName = "";
+            TableName = type.Name.Replace("Model", "");
             PropertyInfo[] property = type.GetProperties();
-            string sql = $"delete from {type.Name}";
+            string sql = $"delete from {TableName}";
             foreach (PropertyInfo item in property)
             {
                 if (!string.IsNullOrEmpty(item.GetValue(t).ToString()))
@@ -79,6 +81,11 @@ namespace WMS_DataAccess.Colin_DataAccess
             sqls = $"select * from {TableName}";
             return con.Query<T>(sqls).ToList();
         }
+        //显示
+        public List<T> Shows<T>(string sql) where T : class, new()
+        {
+            return con.Query<T>(sql).ToList();
+        }
         //修改
         public int Updates(string sql)
         {
@@ -89,8 +96,10 @@ namespace WMS_DataAccess.Colin_DataAccess
         {
             Type type = t.GetType();//获取类型
             PropertyInfo[] pro = type.GetProperties();//获取属性
+            string TableName = "";
+            TableName = type.Name.Replace("Model", "");
             StringBuilder stringBuilder = new StringBuilder();
-            stringBuilder.Append($"update {type.Name} set ");
+            stringBuilder.Append($"update {TableName} set ");
             StringBuilder stringBuilder1 = new StringBuilder();
             string where = "";
             //拼接要修改的字段
@@ -111,6 +120,6 @@ namespace WMS_DataAccess.Colin_DataAccess
             return con.Execute(sql);
         }
 
-
+        
     }
 }

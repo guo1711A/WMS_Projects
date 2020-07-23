@@ -19,8 +19,16 @@ namespace WMS_Business.Colin_Business
         {
             return dal.Show<T>();
         }
- 
-
-
+        //删除
+        public int Delete<T>(T t) where T : class, new()
+        {
+            return dal.Delete<T>(t);
+        }
+        //修改
+        public int Update<T>(T t) where T : class, new()
+        {
+            return dal.Update<T>(t);
+        }
+       
     }
 }

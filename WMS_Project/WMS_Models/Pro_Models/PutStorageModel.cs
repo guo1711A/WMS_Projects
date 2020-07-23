@@ -27,5 +27,27 @@ namespace WMS_Models.Pro_Models
 		 public DateTime  PuPreparedTime { get; set; }
 		 public string  PuAddres { get; set; }
 		 public int  PuTotalPrice { get; set; }
-	 }
+
+		//产品表 
+		public string PrName { get; set; }
+		public string PrNumber { get; set; }
+		public string PrSpid { get; set; }
+		public string PrPtid { get; set; }
+		public string Paid { get; set; }
+		public string PrShowName { get; set; }
+		public string PrUsid { get; set; }
+		public string PrPrice { get; set; }
+		public string PrWeight { get; set; }
+
+		//库位表
+		public string StName { get; set; }
+		public string StStorage { get; set; }
+		//入库类型
+		public string JlName { get; set; }
+		//状态表
+		 public string  SName { get; set; }
+
+
+
+	}
 }

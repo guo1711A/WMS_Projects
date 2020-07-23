@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "9Nw4lK3RKjhNJmhtbye48Ty7SmggioWl1nPvQrrT9u7+2W72XiyYcgJmJJZ4aFTfcjvBK5grUAnsyjXFKfqCdA==",
   "success": true,
   "projectFilePath": "F:\\大一\\二次开发\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj",
+=======
+  "dgSpecHash": "rJoKawO8jijDv9U7VPRPTWpAS5NONSGhUbLPxfA2TRRbBREQBOyJX4gWlnqxJoxNjO61gnt8EgNSmVpCQ0owgQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lenovo\\Desktop\\WMS项目\\WMS_Projects\\WMS_Project\\WMS_DataAccess\\WMS_DataAccess.csproj",
+>>>>>>> master
   "expectedPackageFiles": [
     "C:\\Users\\王士瑞\\.nuget\\packages\\dapper\\2.0.35\\dapper.2.0.35.nupkg.sha512",
     "C:\\Users\\王士瑞\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
