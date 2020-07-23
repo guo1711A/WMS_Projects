@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+}
+
+    <script src="~/VUE/axios.min.js"></script>
+    <script src="~/VUE/vue.js"></script>
+
+<h1>Index</h1>
+
+<table>
+    <thead>
+        <tr>
+            <td>用户名</td>
+            <td>工号</td>
+            <td>真名</td>
+            <td>邮箱</td>
+            <td>手机号</td>
+            <td>固定电话</td>
+            <td>创建时间</td>
+        </tr>
+    </thead>
+    <tbody v-for="m in item">
+        <tr>
+            <td>{{m.userName}}</td>
+            <td>{{m.userNumber}}</td>
+            <td>{{m.name}}</td>
+            <td>{{m.e_mail}}</td>
+            <td>{{m.phone}}</td>
+            <td>{{m.pelephone}}</td>
+            <td>{{m.createTime}}</td>
+        </tr>
+    </tbody>
+</table>
+    </div>
+
+<script>
+        ////var rua = new Vue({
+        //    el: "#bumen",
+        //    data: {
+        //        shuju: [
+        //            { name: "孙", famname: "悟空" },
+        //            { name: "猪", famname: "八戒" },
+        //            { name: "沙", famname: "悟净" }
+        //        ],
+
+        //    }
+
+        //});
+
+
+        new Vue({
+            el: '#app',
+            data() {
+                return {
+                    item: null,
+                }
+            },
+
+            mounted: function () {
+                this.Show();
+            },
+
+            methods: {
+                Show: function () {
+                    axios({
+
+                        method: "get",
+                        url: "http://localhost:57059/api/ShowLogin",
+                    }).then((res => (this.item = res.data)))
+                },
+            }
+        })
+
+
+
+
+
+</script>
+
+
+

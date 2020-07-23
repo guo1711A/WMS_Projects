@@ -1,68 +1,96 @@
-using System;
+ï»¿using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
-namespace WMS_Models.Pro_Models
+
+namespace WMS_Models.Hanna_Model
 {
-	 public class WarehouseTBModel
-	 {
+    public class WarehouseTBModel
+    {
 		//WarehouseTBModel
 		/// <summary>
-		/// ²Ö¿âID
+		/// ä»“åº“ID
 		/// </summary>
 		public Guid Warehouse_ID { get; set; }
 		/// <summary>
-		/// ²Ö¿â±àºÅ
+		/// ä»“åº“ç¼–å·
 		/// </summary>
 		public string Warehouse_Num { get; set; }
 		/// <summary>
-		/// ²Ö¿âÃû³Æ
+		/// ä»“åº“åç§°
 		/// </summary>
 		public string Warehouse_Name { get; set; }
 		/// <summary>
-		/// ²Ö¿âÀàĞÍId
+		/// ä»“åº“ç±»å‹Id
 		/// </summary>
 		public string Warehouse_TypeID { get; set; }
 		/// <summary>
-		/// ²Ö¿âÊÇ·ñ½ûÓÃ
+		/// ä»“åº“æ˜¯å¦ç¦ç”¨
 		/// </summary>
 		public string Warehouse_IsUse { get; set; }
 		/// <summary>
-		/// ²Ö¿âµØÖ·
+		/// ä»“åº“åœ°å€
 		/// </summary>
 		public string Warehouse_Address { get; set; }
 		/// <summary>
-		/// ²Ö¿âÃæ»ı
+		/// ä»“åº“é¢ç§¯
 		/// </summary>
 		public string Warehouse_Area { get; set; }
 		/// <summary>
-		/// ´´½¨²Ö¿âÊ±¼ä
+		/// åˆ›å»ºä»“åº“æ—¶é—´
 		/// </summary>
 		public DateTime Warehouse_Ctime { get; set; }
 		/// <summary>
-		/// ²Ö¿â¸ºÔğÈËÃû³Æ
+		/// ä»“åº“è´Ÿè´£äººåç§°
 		/// </summary>
 		public string Warehouse_Manager { get; set; }
 		/// <summary>
-		/// ²Ö¿â¸ºÔğÈËÁªÏµµç»°
+		/// ä»“åº“è´Ÿè´£äººè”ç³»ç”µè¯
 		/// </summary>
 		public string Warehouse_ManagerPhone { get; set; }
 		/// <summary>
-		/// ²Ö¿â×âÁŞ½áÊøÊ±¼ä
+		/// ä»“åº“ç§Ÿèµç»“æŸæ—¶é—´
 		/// </summary>
 		public DateTime Warehouse_Etime { get; set; }
 		/// <summary>
-		/// ²Ö¿â×âÁŞÊ±¼ä
+		/// ä»“åº“ç§Ÿèµæ—¶é—´
 		/// </summary>
 		public string Warehouse_Time { get; set; }
 		/// <summary>
-		/// ²Ö¿âËùÊô²¿ÃÅID
+		/// ä»“åº“æ‰€å±éƒ¨é—¨ID
 		/// </summary>
 		public string Warehouse_DepartID { get; set; }
 		/// <summary>
-		/// ²Ö¿â×âÁŞ¿ªÊ¼Ê±¼ä
+		/// ä»“åº“ç§Ÿèµå¼€å§‹æ—¶é—´
 		/// </summary>
 		public DateTime Warehouse_Btime { get; set; }
+
+
+
+		//WarehouseTypeModel
+		/// <summary>
+		/// ä»“åº“ç±»å‹Id
+		/// </summary>
+		//public Guid WarehouseType_ID { get; set; }
+		/// <summary>
+		/// ä»“åº“ç±»å‹åç§°
+		/// </summary>
+		public string WarehouseType_Name { get; set; }
+
+
+
+		//DepartmentTBModel
+		/// <summary>
+		/// è¡¨Id
+		/// </summary>
+		public int Id { get; set; }
+		/// <summary>
+		/// éƒ¨é—¨åç§°
+		/// </summary>
+		public string DepartmentName { get; set; }
+		/// <summary>
+		/// åˆ›å»ºæ—¶é—´
+		/// </summary>
+		public DateTime CreateTime { get; set; }
+
 	}
 }

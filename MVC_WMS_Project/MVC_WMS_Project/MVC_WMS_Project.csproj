@@ -6,7 +6,11 @@
 
   <ItemGroup>
     <Folder Include="Controllers\Ryan_Controllers\" />
+<<<<<<< HEAD
     <Folder Include="Controllers\Hanna_Controllers\" />
+=======
+    <Folder Include="Controllers\Colin_Controllers\" />
+>>>>>>> master
   </ItemGroup>
 
   <ItemGroup>
