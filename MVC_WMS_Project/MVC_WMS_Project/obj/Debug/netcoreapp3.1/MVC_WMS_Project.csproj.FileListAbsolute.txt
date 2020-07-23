@@ -482,3 +482,4 @@ C:\Users\周涵\Desktop\WMS项目\WMS_Projects\MVC_WMS_Project\MVC_WMS_Project\o
 C:\Users\周涵\Desktop\WMS项目\WMS_Projects\MVC_WMS_Project\MVC_WMS_Project\obj\Debug\netcoreapp3.1\MVC_WMS_Project.pdb
 C:\Users\周涵\Desktop\WMS项目\WMS_Projects\MVC_WMS_Project\MVC_WMS_Project\obj\Debug\netcoreapp3.1\MVC_WMS_Project.genruntimeconfig.cache
 C:\Users\周涵\Desktop\WMS项目\WMS_Projects\MVC_WMS_Project\MVC_WMS_Project\obj\Debug\netcoreapp3.1\Razor\Views\HannaMVC\WarehouseShowAll.cshtml.g.cs
+C:\Users\lenovo\Desktop\WMS项目\WMS_Projects\MVC_WMS_Project\MVC_WMS_Project\obj\Debug\netcoreapp3.1\Razor\Views\HannaMVC\WarehouseShowAll.cshtml.g.cs
