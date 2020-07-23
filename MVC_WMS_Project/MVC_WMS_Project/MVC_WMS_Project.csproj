@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\Ryan_Controllers\" />
     <Folder Include="Controllers\Hanna_Controllers\" />
     <Folder Include="Controllers\Colin_Controllers\" />
   </ItemGroup>

@@ -17,5 +17,10 @@ namespace WMS_Models.Pro_Models
 		 public string  WarehouseId { get; set; }
 		 public string  BrandId { get; set; }
 		 public string  ProductBatch { get; set; }
-	 }
+		public string ProductInt { get; set; }
+		public string StockNum { get; set; }
+		public string StockUnits { get; set; }
+		public DateTime StockTime { get; set; }
+		public decimal ChengBenTotal { get; set; }
+	}
 }

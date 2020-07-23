@@ -6,7 +6,6 @@
 
   <ItemGroup>
     <Folder Include="Nick_DataAccess\" />
-    <Folder Include="Ryan_DataAccess\" />
   </ItemGroup>
 
   <ItemGroup>

@@ -16,5 +16,6 @@ namespace WMS_Models.Pro_Models
 		 public string  PaymentWay { get; set; }
 		 public string  PaymentOrgan { get; set; }
 		 public DateTime  PaymentTime { get; set; }
+		 public decimal CaiGouTotal { get; set; }
 	 }
 }

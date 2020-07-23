@@ -11,5 +11,7 @@ namespace WMS_Models.Pro_Models
 		 public DateTime  MarketTimeId { get; set; }
 		 public decimal  Margin { get; set; }
 		 public decimal  MarketTotal { get; set; }
+		 public decimal YearTotal { get; set; }
+		 public decimal ZhouTotal { get; set; }
 	 }
 }

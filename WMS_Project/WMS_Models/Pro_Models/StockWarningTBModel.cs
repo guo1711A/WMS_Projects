@@ -11,6 +11,8 @@ namespace WMS_Models.Pro_Models
 		 public string  ProductId { get; set; }
 		 public int  StockUpper { get; set; }
 		 public int  StockFloor { get; set; }
-		 public int  StockShu { get; set; }
-	 }
+		public int StockShu { get; set; }
+		public int NumTotal { get; set; }
+
+	}
 }
