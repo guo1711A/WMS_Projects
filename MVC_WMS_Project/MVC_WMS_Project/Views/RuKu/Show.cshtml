@@ -1,0 +1,108 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <script src="~/axios.js"></script>
+    <script src="~/vue.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <link href="~/lib/bootstrap/dist/css/RuKu.css" rel="stylesheet" />
+    <title>Show</title>
+</head>
+<body>
+    <h1>Show</h1>
+    <div class="div1">
+        <div id="div1">
+            <div>
+                <label>数据筛选</label>
+                <a href="#">高级搜索</a>
+            </div>
+            <hr />
+            <div>
+                <label>入库单号:</label><input id="DingDan" type="text" placeholder="请输入单号" />
+                <label>入库类型:</label>
+                <select id="LeiXing">
+                    <option>请选择</option>
+                </select>
+                <label>入库状态:</label>
+                <select id="ZhuangTai">
+                    <option>请选择</option>
+                </select>
+                <input id="search" type="button" value="查询" />
+                <input id="congzhi" type="button" value="重置" />
+            </div>
+            <hr />
+            <table id="app" class="table table-bordered ">
+                <thead>
+                    <tr>
+                        <td><input id="Quan" type="checkbox" /></td>
+                        <td>订单号</td>
+                        <td>产品名称</td>
+                        <td>产品编号</td>
+                        <td>批次</td>
+                        <td>规格</td>
+                        <td>数量</td>
+                        <td>库位</td>
+                        <td>入库类型</td>
+                        <td>供应商</td>
+                        <td>制单人</td>
+                        <td>状态</td>
+                        <td>审核人</td>
+                        <td>审核时间</td>
+                        <td>操作</td>
+                    </tr>
+                </thead>
+                <tbody v-for="row in info">
+                    <tr>
+                        <td><input id="Checkbox1" type="checkbox" /></td>
+                        <td>{{row.puName}}</td>
+                        <td>{{row.prName}}</td>
+                        <td>{{row.prNumber}}</td>
+                        <td>{{row.puBatch}}</td>
+                        <td>{{row.spName }}</td>
+                        <td>{{row.puNumber}}</td>
+                        <td>{{row.stName}}</td>
+                        <td>{{row.jlName}}</td>
+                        <td>{{row.puSupplierName}}</td>
+                        <td>{{row.puPrepared}}</td>
+                        <td>{{row.sName}}</td>
+                        <td>{{row.puAudit}}</td>
+                        <td>{{row.puAuditTime}}</td>
+                        <td><a href="#">编辑</a>&nbsp;&nbsp;<a href="#">删除</a></td>
+
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+    <script>
+
+        var vue = new Vue({
+            el: '#app',
+            data() {
+                return {
+                    info: null
+                }
+            },
+            mounted() {
+                this.show();
+            },
+            methods: {
+                show: function () {
+                    axios
+                        .get('http://localhost:57059/api/ruku/RKShow')
+                        .then(Response => (this.info = Response.data))
+                }
+            } 
+        });
+
+    </script>
+
+</body>
+</html>

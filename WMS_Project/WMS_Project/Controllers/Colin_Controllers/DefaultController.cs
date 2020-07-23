@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Dapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using WMS_Business.Colin_Business;
 using WMS_DataAccess.Colin_DataAccess;
 using WMS_Models.Pro_Models;
@@ -57,9 +58,9 @@ namespace WMS_Project.Controllers.Colin_Controllers
         //显示产品表
         [HttpGet]
         public List<ProductsTBModel> CPShow()
-        {
+        { 
             return bll.Show<ProductsTBModel>();
-        }
+        }   
         //产品表分页
         [HttpGet]
         public ActionResult<ProductsTBModel> Pager(int PageSize, int PageIndex)
@@ -79,31 +80,22 @@ namespace WMS_Project.Controllers.Colin_Controllers
             total = param.Get<int>("@TableCount");  //Execute count = 80
             return Ok(new { data = res2, total = total });
         }
+        //删除产品表
+        [HttpPost]
+        public int Delete(ProductsTBModel id)
+        {
+            return bll.Delete(id);
+        }
+        //添加产品表
+        [HttpPost]
+        public int Add(ProductsTBModel m)
+        {
+            return bll.Add(m);
+        } 
+        
 
-        /// <summary>
-        /// //////////////
-        /// </summary>
-        /// <param name="name"></param>
-        /// <returns></returns>
-        ////查询
-        //[HttpGet]
-        //public List<UserInfoModel> Search(string name)
-        //{
-        //    UserInfoModel m = new UserInfoModel { Account = name };
-        //    return bll.Search(m);
-        //}
-        ////添加
-        //[HttpPost]
-        //public int Add(UserInfoModel m)
-        //{
-        //    return bll.Add(m);
-        //}
-        ////删除
-        //[HttpPost]
-        //public int Delete(string id)
-        //{
-        //    return bll.Del(id);
-        //}
+
+
         ////修改
         //[HttpPost]
         //public int Update(UserInfoModel m)

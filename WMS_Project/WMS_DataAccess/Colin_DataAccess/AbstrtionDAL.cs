@@ -8,6 +8,7 @@ namespace WMS_DataAccess.Colin_DataAccess
 {
    public abstract class AbstrtionDAL
     {
+        //连接数据库
         private static string coon = "Data Source=192.168.43.236;Initial Catalog=WMSDB;User ID=sa;password=1234";
 
         public static IDbConnection GetSql()
